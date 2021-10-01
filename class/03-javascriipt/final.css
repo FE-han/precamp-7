@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.join {
+    width: 250px;
+    height: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.join__header {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.join__body {
+    width: 100%;
+    height: 20%;
+}
+
+.join__footer {
+    width: 100%;
+    height: 20%;
+}

@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.background {
+  background-image: url("../images/background\ \(1\).png");
+  width: 1024px;
+  height: 600px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.outerbox {
+  background-image: url("../images/outerbox\ \(1\).png");
+  width: 808px;
+  height: 544px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-top: 32px;
+  padding-left: 32px;
+}
+
+.wrapper__left {
+  width: 208px;
+  height: 472px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wrapper__left__header {
+  width: 208px;
+  height: 40px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper__left__header__left {
+  width: 90px;
+  height: 15px;
+  background-color: snow;
+}
+
+.wrapper__left__header__right {
+  width: 90px;
+  height: 15px;
+  background-color: teal;
+}
+.wrapper__left__body {
+  width: 208px;
+  height: 430px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper__left__body__top {
+  width: 148px;
+  height: 250px;
+  background-color: green;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper__left__body__top__up {
+  width: 148px;
+  height: 133px;
+  background-color: blueviolet;
+  margin: 20px;
+}
+
+.wrapper__left__body__top__down {
+  width: 148px;
+  height: 100px;
+  background-color: chocolate;
+  margin: 20px;
+}
+
+.wrapper__left__body__bottom {
+  width: 148px;
+  height: 100px;
+  background-color: hotpink;
+  margin: 20px;
+}
+
+.wrapper__right {
+  width: 524px;
+  height: 472px;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wrapper__right__header {
+  width: 524px;
+  height: 42px;
+  background-color: tomato;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper__right__header__left {
+  width: 192px;
+  height: 21px;
+  background-color: springgreen;
+}
+
+.wrapper__right__header__right {
+  width: 78px;
+  height: 18px;
+  background-color: violet;
+}
+
+.wrapper__right__body {
+  width: 524px;
+  height: 430px;
+  background-color: pink;
+}
